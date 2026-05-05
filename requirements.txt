@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pypdf
+numpy
+faiss-cpu
+sentence-transformers
+google-generativeai
+python-dotenv
+tqdm
+psycopg2-binary
+sqlalchemy
+pgvector
+pdfplumber
+google-genai

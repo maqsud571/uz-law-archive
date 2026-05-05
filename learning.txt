@@ -1,0 +1,36 @@
+!!!rag/chain.py(MIYA)
+
+👉 bu yerda RAG quvur liniyasi ishlaydi
+
+def answer_question(query):
+    context = get_context(query)
+    return llm_generate(context, query)
+    
+!!!rag/retriever.py(BOSHI NI QIDIRUV)
+
+👉 bu natijalarni boshqaradi
+
+get_context(query)
+
+bu rag ning serach qismi va vector search
+
+!!!rag/vector_store.py(QIDIRUV MASALLIGI)
+
+👉 bu real qidiruv engine
+
+!!!rag/pdf_loader.py
+
+👉 PDF ​​ni matnga aylantiradi
+
+!!!rag/chunker.py
+
+👉 textni bo'lib beradi
+
+!!!rag/embedder.py
+
+👉 matn → vektorga otkazish
+
+!!!scripts/ingest.py
+
+👉 bu eng muhim pipeline
+PDF → text → split → embedding → DBё
