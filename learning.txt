@@ -34,3 +34,5 @@ bu rag ning serach qismi va vector search
 
 👉 bu eng muhim pipeline
 PDF → text → split → embedding → DBё
+
+bunda siz qonun boyicha hohlagan savollaringizni berishingiz mumkun va u bizdagi pdf malumotlari boyicha javob qaytaradi
