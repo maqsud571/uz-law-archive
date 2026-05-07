@@ -144,18 +144,7 @@ uvicorn main:app --reload
 
 ---
 
-# 🌍 Future Plans
 
-* Uzbek Legal LLM
-* Multi-language support
-* Voice assistant
-* Legal document summarization
-* Court decision analysis
-* Mobile application
-* AI legal research assistant
-
-
----
 
 # 📜 License
 
